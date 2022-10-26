@@ -1,0 +1,114 @@
+:root {
+    --purple: #372865;
+    --gray: #4f4f4f;
+    --fnt-lrg: 3.4rem;
+    --fnt-mdm: 1.6rem;
+    --fnt-smll: 1.4rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.body__cntnr {
+    width: 85%;
+}
+
+.elmt--mrgn-auto, .cntnr--mrgn-auto {
+    margin: 0 auto;
+}
+
+.header__nvbr {
+    height: 15rem;
+    justify-content: space-between;
+}
+
+.elmt-flx, .cntnr--flx {
+    display: flex;
+    align-items: center;
+}
+
+.main__cntnr {
+    height: 100vh;
+    text-align: center;
+}
+
+.main__access {
+    padding: 0.6rem 1.5rem;
+    border-radius: 5rem;
+    border: transparent;
+}
+
+.main__ttl {
+    margin: 2rem 0;
+    font-weight: 800;
+    font-size: var(--fnt-lrg);
+}
+
+.line--hght {
+    line-height: 1.4;
+}
+
+.main__cntn {
+    margin: 0 0 2rem 0;
+    color: var(--gray);
+    font-weight: 400;
+}
+
+.fnt--smll {
+    font-size: var(--fnt-smll);
+}
+
+.fnt--mdm {
+    font-size: var(--fnt-mdm);
+}
+
+.main__form {
+    margin: 0 0 2rem 0;
+    row-gap: 1rem;
+    flex-direction: column;
+    color: var(--gray);
+}
+
+.frm__email, .frm__submit {
+    width: 100%;
+    height: 5rem;
+    border-radius: 0.4rem;
+}
+
+.frm__email {
+    padding: 0 0 0 1.5rem;
+    outline: none;
+    border: 1px solid var(--gray);
+}
+
+.frm__submit {
+    font-weight: 500;
+    word-spacing: 0.4rem;
+    letter-spacing: 0.1rem;
+    border: transparent;
+}
+
+.main__companies {
+    font-weight: 600;
+    text-align: start;
+}
+
+.elmt--color-white, .ctnnr--color-white {
+    color: white;
+}
+
+.elmt--color-prpl, .cntnr--color-prpl {
+    color: var(--purple);
+}
+
+.elmt--bckgrnd-purple, .cntnr--bckgrnd-purple {
+    background-color: var(--purple);
+}
