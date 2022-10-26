@@ -1,0 +1,22 @@
+@media (min-width: 625px){
+    .body__cntnr {
+        width: 80%;
+        --fnt-lrg: 3.6rem;
+        --fnt-mdm: 1.8rem;
+        --fnt-smll: 1.6rem;
+    }
+
+    .main__form {
+        gap: 0;
+        flex-direction: row;
+    }
+
+    .frm__email {
+        width: 70%;
+        border: transparent;
+    }
+
+    .frm__submit {
+        width: 30%;
+    }
+}
