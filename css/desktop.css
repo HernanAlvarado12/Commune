@@ -1,0 +1,46 @@
+@media (min-width: 995px){
+    .header__nvbr > img:nth-child(2) {
+        display: none;
+    }
+
+    .header__desktop {
+        display: flex;
+        list-style: none;
+    }
+
+    .desktop__alink {
+        margin: 0 1.5rem;
+        text-decoration: none;
+    }
+
+    .last__alink {
+        padding: 1.5rem 2rem;
+        border-radius: 0.8rem;
+    }
+
+    .main__cntnr {
+        max-height: 50rem;
+        margin: 5rem 0 0 0;
+        display: grid;
+        gap: 0 2rem;
+        grid-template-columns: 1fr 0.7fr;
+        text-align: start;
+    }
+
+    .main__img {
+        width: 100%;
+        height: 100%;
+        max-height: 45rem;
+        display: flex;
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .main__access {
+        width: 45rem;
+    }
+
+    .main__form {
+        width: 40rem;    
+    }
+
+}

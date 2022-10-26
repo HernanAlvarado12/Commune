@@ -30,6 +30,10 @@ html {
     justify-content: space-between;
 }
 
+.header__desktop, .main__img {
+    display: none;
+}
+
 .elmt-flx, .cntnr--flx {
     display: flex;
     align-items: center;
@@ -42,6 +46,7 @@ html {
 
 .main__access {
     padding: 0.8rem 1.5rem;
+    font-size: 1.6rem;
     border-radius: 5rem;
     border: transparent;
 }
@@ -74,6 +79,9 @@ html {
     margin: 0 0 2rem 0;
     row-gap: 1rem;
     flex-direction: column;
+}
+
+.elmt--color-gray, .cntnr--color-gray {
     color: var(--gray);
 }
 
